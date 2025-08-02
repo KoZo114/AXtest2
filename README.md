@@ -1,4 +1,13 @@
 # 10FRESH 練馬店｜ブログ & Instagram 半自動更新ワークフロー
+---
+
+## 📎 補足資料とデモ
+
+- [📄 調査レポート（report.md）](https://github.com/KoZo114/AXtest2/blob/main/report.md)  
+　→ このツールの開発背景・業務改善ポイントをまとめたレポートです。
+
+- [🌐 自動出力デモ（index.html）](https://kozo114.github.io/AXtest2/)  
+　→ ブラウザで開けるサンプル出力（HTML形式）です。
 
 毎朝 09:40 に ChatGPT で **ブログ原稿＋Instagram キャプション＋カルーセル台本（5 枚）** を生成し、  
 以下 4 ステップで公開しています。
@@ -41,14 +50,5 @@ mkdir -p draft && code draft/2025-08-01.md
 # 3. Canva でカルーセル (5 枚) → mp4 出力
 # 4. Meta Business Suite で ig.txt + mp4/画像 を予約投稿
 # 5. blog.md を Hot Pepper Beauty ブログへコピペ
----
-
-## 📎 補足資料とデモ
-
-- [📄 調査レポート（report.md）](https://github.com/KoZo114/AXtest2/blob/main/report.md)  
-　→ このツールの開発背景・業務改善ポイントをまとめたレポートです。
-
-- [🌐 自動出力デモ（index.html）](https://kozo114.github.io/AXtest2/)  
-　→ ブラウザで開けるサンプル出力（HTML形式）です。
 
 
